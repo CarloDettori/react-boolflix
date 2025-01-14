@@ -1,5 +1,6 @@
 function CardComponent() {
-    return <h1>card</h1>
+
+    return <h1>CARD</h1>
 
 
 }

@@ -1,14 +1,17 @@
+
 import CardComponent from "./CardComponent";
 
+
 function RowComponent() {
+
     return (
-        <div className="Row">
-            <div className="d-flex flex-wrap">
+        <div className="row">
 
-                <CardComponent />
+            <h2>Row Title</h2>
+            <CardComponent />
 
 
-            </div>
+
         </div>
     )
 }
