@@ -1,6 +1,21 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#header {
+  background-color: black;
+}
+
+#logo {
+  color: #ff0000;
+  margin-right: auto;
+}
+
+.form-select {
+  margin: auto 8px
+}
+
+#search-box {
+  margin-right: auto;
+}
+
+#search-button {
+  background-color: #ff0000;
+  color: white
 }

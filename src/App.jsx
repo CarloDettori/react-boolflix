@@ -1,10 +1,14 @@
 import './App.css'
+import HeaderComponent from './components/HeaderComponent'
 
 function App() {
-  console.log("Ajeje Brazorf")
+
 
   return (
-    <h1>Hello world!</h1>
+    <>
+      <HeaderComponent />
+      <h1>Ajeje Brazorf</h1>
+    </>
   )
 }
 
