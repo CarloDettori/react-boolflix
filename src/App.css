@@ -5,10 +5,16 @@
 #logo {
   color: #ff0000;
   margin-right: auto;
+  font-size: 2em;
 }
 
-.form-select {
-  margin: auto 8px
+#genere-filter {
+  margin: auto 20px
+}
+
+#search-bar {
+  max-width: 200px;
+  min-width: 200px;
 }
 
 #search-box {

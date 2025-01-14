@@ -10,7 +10,7 @@ function HeaderComponent() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="d-flex">
-                        <select className="form-select" aria-label="Default select example">
+                        <select id="genere-filter" className="form-select" aria-label="Default select example">
                             <option selected>All generes</option>
                             <option value="1">Thriller</option>
                             <option value="2">Horror</option>
@@ -18,7 +18,7 @@ function HeaderComponent() {
                         </select>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <form className="d-flex" role="search">
-                                <input className="form-control me-2" type="search" placeholder="titolo" aria-label="Search" />
+                                <input id="search-bar" className="form-control me-3" type="search" placeholder="titolo" aria-label="Search" />
                                 <button id="search-button" className="btn" type="submit">Cerca</button>
                             </form>
                         </div>
