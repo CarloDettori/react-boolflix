@@ -1,5 +1,6 @@
 import './App.css'
 import HeaderComponent from './components/HeaderComponent'
+import MainComponent from './components/MainComponent'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <HeaderComponent />
-      <h1>Ajeje Brazorf</h1>
+      <MainComponent />
     </>
   )
 }
