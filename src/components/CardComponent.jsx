@@ -1,6 +1,12 @@
-function CardComponent() {
+function CardComponent(el) {
 
-    return <h1>CARD</h1>
+    return (
+        <>
+
+            <img src={`https://image.tmdb.org/t/p/w342${el.el.
+                poster_path}`} alt="" />
+        </>
+    )
 
 
 }
