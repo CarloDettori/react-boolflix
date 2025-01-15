@@ -4,9 +4,44 @@
   width: 100%;
 }
 
-#logo {
-  color: #ff0000;
+body {
+  background-color: #545454;
+}
+
+#l1,
+#l2 {
+  color: white;
+  text-decoration: none;
+
+}
+
+
+a {
+  list-style-type: none;
+
+  padding: 10px;
+
+}
+
+#ul {
+  margin: 0;
   margin-right: auto;
+  padding-left: 0;
+}
+
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+
+#logo-he,
+#logo-ho {
+  color: #ff0000;
+
   font-size: 2em;
 }
 
@@ -32,6 +67,7 @@ main {
   color: white;
   background-color: #545454;
   padding: 50px;
+  height: ;
 }
 
 h1 {
