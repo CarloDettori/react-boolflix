@@ -1,6 +1,10 @@
 import { NavLink } from "react-router-dom";
 
 function HeaderComponent() {
+    function getGeneres() {
+        allGeneres = [];
+
+    }
     return (
         <header id="header">
             <nav className="navbar navbar-expand-lg bg-body-black">
