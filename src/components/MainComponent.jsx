@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import RowComponent from "./RowComponent";
+import { GlobalContext } from "../context/GlobalContext";
 
 function MainComponent() {
+    const { moovieContent, seriesContent, filmRowTitle, serieRowTitle } = useContext(GlobalContext)
 
     return (
         <main>

@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DefaultLayout from './pages/DefaultLayout';
 import { useState, useEffect } from "react";
 import axios from "axios";
+
 const call = "https://api.themoviedb.org/3/search/"
 const moovieIta = "movie?api_key=7316ac90ac2b0905a79bf2188640f47b&query=a&language=it-IT"
 const seriesIta = "tv?api_key=7316ac90ac2b0905a79bf2188640f47b&query=a&language=it-IT"
