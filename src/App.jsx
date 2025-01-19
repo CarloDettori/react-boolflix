@@ -33,7 +33,7 @@ function App() {
         console.log("moovies", moovieContent)
       })
       .catch((error) => {
-        console.log("error")
+        console.log(error)
       })
       .finally(() => {
 
@@ -57,7 +57,15 @@ function App() {
       })
   }
   return (
-    <GlobalContext.Provider value={{ moovieContent, seriesContent, filmRowTitle, serieRowTitle }}>
+    <GlobalContext.Provider value={{
+      moovieContent,
+      seriesContent,
+      filmRowTitle,
+      serieRowTitle,
+      call,
+      moovieIta,
+      seriesIta
+    }}>
       < BrowserRouter >
         <Routes>
           <Route Component={DefaultLayout}>

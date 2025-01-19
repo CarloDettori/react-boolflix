@@ -1,7 +1,13 @@
+img {
+  height: 100%;
+  /* aspect-ratio: 1/1; */
+}
+
 #header {
   background-color: black;
   position: fixed;
   width: 100%;
+  z-index: 4000;
 }
 
 body {
@@ -78,6 +84,46 @@ h1 {
   overflow-x: auto;
 }
 
-.col {
+
+
+.cols {
   padding: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  height: 100%;
+}
+
+
+
+
+.card {
+  flex: 1;
+  height: 100%;
+
+}
+
+.overlay {
+  padding: 15px;
+  color: white;
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3000;
+  cursor: pointer;
+}
+
+
+.card:hover .overlay {
+  display: block;
 }

@@ -14,7 +14,7 @@ function RowComponent(content) {
 
 
             {items.map((item) => {
-                return <div key={item.id} className="col-12 col-md-4 col-lg-3"><CardComponent key={item.id} el={item} /></div>
+                return <div key={item.id} className="cols col-12 col-md-4 col-lg-3"><CardComponent key={item.id} el={item} /></div>
             })}
 
         </div></>
